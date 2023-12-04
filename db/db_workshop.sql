@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 28 Nov 2023 pada 07.10
+-- Waktu pembuatan: 04 Des 2023 pada 06.51
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -141,12 +141,12 @@ CREATE TABLE `workshop` (
 --
 
 INSERT INTO `workshop` (`id_workshop`, `judul`, `id_pemateri`, `deskripsi`, `kuota`, `tgl_mulai`, `tgl_selesai`, `lama_workshop`, `lokasi`, `gambar`, `biaya`, `status`) VALUES
-(2, 'testjudul', 2, 'testdesk', 50, '2022-12-12', '2022-12-12', '1', 'testlokasi', '63a0a2a588b0f-pengambilan-keputusan.png', 5000, 'teststatus'),
-(3, 'testjudul', 2, 'testdesk', 50, '2022-12-12', '2022-12-12', '1', 'testlokasi', '63a0a42d2ef41-pengambilan-keputusan.jpg', 5000, 'teststatus'),
-(4, 'jalani hidup', 4, 'menjalani hidup', 500, '2022-12-23', '2022-12-24', '2 Hari', 'online', '63a0a547e1f6b-fish.jpg', 5000, 'teststatus'),
-(5, 'Arah Langkah', 4, 'Seorang Expert Programmer', 5, '2022-12-22', '2022-12-23', '2', 'online via zoom', '', 5, 'coming soon'),
-(6, 'Sang Pemimpi', 4, 'bedah buku sang pemimpi', 3, '2022-12-27', '2022-12-28', '1', 'online', '63a088292aaac-YLNFSH.jpg', 5000, 'coming soon'),
-(7, 'Arah Langkah', 4, 'bedah buku sang pemimpi', 7, '2022-12-26', '2022-12-26', '1 Hari', 'online', '625-ava.png', 5000, 'Pending');
+(2, 'testjudul', 2, 'testdesk', 50, '2022-12-12', '2022-12-12', '1', 'testlokasi', '608-reactPart4.png', 5000, 'teststatus'),
+(3, 'testjudul', 2, 'testdesk', 50, '2022-12-12', '2022-12-12', '1', 'testlokasi', '420-reactPart5.jpg', 5000, 'teststatus'),
+(4, 'jalani hidup', 4, 'menjalani hidup', 500, '2022-12-23', '2022-12-24', '2 Hari', 'online', '655-reactPart7.jpg', 5000, 'teststatus'),
+(5, 'Arah Langkah', 4, 'Seorang Expert Programmer', 5, '2022-12-22', '2022-12-23', '2', 'online via zoom', '721-reactPart9.png', 5, 'coming soon'),
+(6, 'Sang Pemimpi', 4, 'bedah buku sang pemimpi', 3, '2022-12-27', '2022-12-28', '1', 'online', '854-reactPart8.jpg', 5000, 'coming soon'),
+(7, 'Arah Langkah', 4, 'bedah buku sang pemimpi', 7, '2022-12-26', '2022-12-26', '1 Hari', 'online', '878-reactPart4.png', 5000, 'Pending');
 
 --
 -- Indexes for dumped tables
